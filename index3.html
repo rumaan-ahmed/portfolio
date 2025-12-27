@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rumaan Ahmed — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style3.css">
+  <meta name="description" content="Rumaan Ahmed — Student at PUCIT, aspiring web developer. Portfolio showcasing skills, projects and contact.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <div class="logo-mark">R</div>
+        <div class="brand-text">
+          <div class="name">Rumaan Ahmed</div>
+          <div class="role">PUCIT • Data Science</div>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" title="Toggle theme">🌙</button>
+        <button id="menuToggle" class="icon-btn menu-btn" title="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Rumaan Ahmed</h1>
+          <p class="hero-subtitle">Student at PUCIT — Aspiring <span id="typed">Web Developer</span></p>
+
+          <p class="hero-bio">
+            Hi, I'm Rumaan — a Data Science student at Punjab University College of Information Technology (PUCIT). 
+            I'm passionate about web development, video editing, and strong communication. I'm currently building practical projects to grow into a professional web developer.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn-primary" href="#projects">See Projects</a>
+            <a class="btn-outline" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="quick-contact">
+            <div><strong>Email:</strong> <a href="mailto:romeozazoo21@gmail.com">romeozazoo21@gmail.com</a></div>
+            <div><strong>Location:</strong> Lahore, Pakistan</div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <div class="profile-photo-wrap">
+              <img src="profile.jpg" alt="Rumaan Ahmed" class="profile-photo" />
+            </div>
+            <div class="profile-details">
+              <h3>Rumaan Ahmed</h3>
+              <p>Student • Aspiring Web Developer</p>
+
+              <div class="socials">
+                <a href="#" aria-label="LinkedIn" class="pill">LinkedIn</a>
+                <a href="#" aria-label="GitHub" class="pill">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat">
+              <div class="num">6+</div>
+              <div class="label">Key Skills</div>
+            </div>
+            <div class="stat">
+              <div class="num">2</div>
+              <div class="label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="num">PUCIT</div>
+              <div class="label">Institution</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I'm a dedicated student at PUCIT studying Data Science. I love creating clean, accessible web interfaces and editing videos with attention to pacing and storytelling.
+            I'm building a foundation of practical skills in HTML, CSS, JavaScript, and video editing tools while improving my communication and teamwork.
+          </p>
+
+          <ul class="bullets">
+            <li>Currently learning advanced JavaScript and responsive design</li>
+            <li>Comfortable with video editing basics and producing short promo clips</li>
+            <li>Strong interest in frontend development & UX</li>
+          </ul>
+        </div>
+
+        <div class="about-cards">
+          <div class="card">
+            <h4>Education</h4>
+            <p>Data Science — Punjab University College of Information Technology (PUCIT)</p>
+          </div>
+
+          <div class="card">
+            <h4>Goal</h4>
+            <p>To become a professional web developer building useful and beautiful web apps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="muted">Technical and creative skills I use regularly</p>
+
+        <div class="skills-grid">
+          <div class="skill">HTML5</div>
+          <div class="skill">CSS3</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">Responsive Design</div>
+          <div class="skill">Video Editing</div>
+          <div class="skill">Communication</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">Two small projects showcasing web & editing basics</p>
+
+        <div class="projects-grid">
+          <div class="project-card" data-project="1">
+            <div class="project-thumb">🌐</div>
+            <div class="project-info">
+              <h3>Responsive Landing Page</h3>
+              <p>Built a modern, responsive landing page using HTML & CSS with a focus on accessibility and mobile-first design.</p>
+              <button class="btn-outline project-open">View details</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="2">
+            <div class="project-thumb">🎬</div>
+            <div class="project-info">
+              <h3>Short Promo Edit</h3>
+              <p>Edited a short promotional video: color-corrected footage, added smooth cuts and captions, and exported for web platforms.</p>
+              <button class="btn-outline project-open">View details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>I'm available by email for project inquiries, collaboration, and feedback.</p>
+
+          <div class="contact-card">
+            <div><strong>Email:</strong> <a href="mailto:romeozazoo21@gmail.com">romeozazoo21@gmail.com</a></div>
+            <div><strong>Location:</strong> Lahore, Pakistan</div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" action="#" onsubmit="return handleContact(event)">
+          <label>
+            Your name
+            <input type="text" id="name" placeholder="Your name" required>
+          </label>
+
+          <label>
+            Your email
+            <input type="email" id="email" placeholder="your@email.com" required>
+          </label>
+
+          <label>
+            Message
+            <textarea id="message" rows="5" placeholder="Short message..." required></textarea>
+          </label>
+
+          <div class="form-row">
+            <button type="submit" class="btn-primary">Send Message</button>
+            <button type="reset" class="btn-outline">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Rumaan Ahmed — Designed with care.</div>
+      <div class="footer-links">
+        <a href="#home">Top</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script3.js"></script>
+</body>
+</html>
